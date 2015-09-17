@@ -24,3 +24,8 @@ mysql -V
  -A INPUT -j REJECT --reject-with icmp-host-prohibited
  -A FORWARD -j REJECT --reject-with icmp-host-prohibited
 
+
+
+
+创建rsync不用密码双向通道
+http://www.doc88.com/p-192102317494.html
